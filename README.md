@@ -1,4 +1,6 @@
-# [Titlul proiectului]
+[![CI](https://github.com/varadianlaura/MAP-Proiect/actions/workflows/ci.yml/badge.svg)](https://github.com/varadianlaura/MAP-Proiect/actions/workflows/ci.yml)
+
+# Agenda Contacte
 
 Proiect individual la disciplina Metode avansate de programare, anul universitar 2026-2027.
 
