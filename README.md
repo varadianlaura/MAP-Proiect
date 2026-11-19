@@ -20,8 +20,10 @@ C++20 cu cpp-httplib si nlohmann/json
 ## Rulare
 
 ```
+docker pull ghcr.io/utilizator/map-proiect:latest
 docker build -t map-proiect .
 docker run -d -p 8080:8080 map-proiect
+docker run --rm --network host cloudflare/cloudflared:latest tunnel --url http://localhost:8080
 ```
 
 Aplicatia asculta pe portul 8080. Verificati:

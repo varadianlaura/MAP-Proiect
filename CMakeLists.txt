@@ -20,10 +20,17 @@ FetchContent_Declare(httplib
   GIT_SHALLOW TRUE)
 
 # Header-only JSON library.
-FetchContent_Declare(json
+FetchContent_Declare(
+  json
   GIT_REPOSITORY https://github.com/nlohmann/json.git
   GIT_TAG v3.11.3
   GIT_SHALLOW TRUE)
+
+FetchContent_Declare(
+  doctest
+  GIT_REPOSITORY https://github.com/doctest/doctest.git
+  GIT_TAG v2.4.12
+)
 
 FetchContent_MakeAvailable(httplib json)
 
